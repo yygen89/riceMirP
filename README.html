@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<title>riceMirP User Manual</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<h2 align="center">riceMirP User Manual (Version 1.0.0) </h2>
+
+<p> January 1 2020</p>
+
+
+
+<hr>
+
+
+<h3>About This Program</h3>
+
+<p>
+
+Rice microRNAs (miRNAs) are important post-transcriptional regulation factors and play vital roles in many biological processes, 
+such as growth, development, and stress resistance. Identification of these molecules is the basis of dissecting their regulatory functions. 
+Current various machine learning techniques have been developed to identify precursor miRNAs (pre-miRNAs). 
+However, no tools were implemented specifically for rice pre-miRNAs. 
+This study aims at improving prediction performance of rice pre-miRNAs by constructing novel features with high discriminatory power and training model with species-specific data. plantMirP-rice, a stand-alone random forest-based miRNA prediction tool, 
+achieves a promising accuracy of 93.48% based on independent (unseen) rice data. Comparisons with other competitive pre-miRNA prediction methods demonstrate that plantMirP-rice performs surpassingly to existing tools for plant pre-miRNA classification. 
+Finally, the local package of plantMirP-rice is freely available for academic researches.
+
+</p>
+
+<p>&nbsp;</p>
+<hr>
+
+
+<h4>Run</h4>
+
+<p>perl riceMirP.pl -P &lt;postive FASTA&gt; -N &lt;negative FASTA&gt; -T &lt;test FASTA&gt; </p>
+
+
+<p>&nbsp;</p>
+<hr>
+
+
+<h3>Prerequisites</h3>
+<p>1. Currently, only  local stand-alone packages of LINUX system will  be provided. </p>
+<p>2. riceMirP is implemented in Perl (v5.26.1).  </p>
+<p>3. Please ensure the randomForest R package is installed before running.</p>
+<p>4. Please ensure that ViennaRNA (v2.4.11) is installed before running, which is downloaded from https://www.tbi.univie.ac.at/RNA/index.html .</p>
+
+<p>&nbsp;</p>
+<hr>
+
+<h3>Installation </h3>
+
+<p>Unzip the installation file, and then enter the directory of riceMirP.</p>
+
+<p>&nbsp;</p>
+<hr>
+
+
+
+<h3>Availability</h3>
+<p>Our softwares are freely available for academic researches. 
+For non-profit users, you can copy, distribute and use the softwares for your scientific studies. 
+Our softwares are not free for commercial usage.
+
+<p>For ordering information please please contact us.</p>
+
+<p>&nbsp;</p>
+
+<hr>
+
+
+
+<h3>Citation</h3>
+<p>If the software has been helpful for your work, we wish you could cite the article.</p>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<h3>Contacting the Author</h3>
+
+<p>We'd like to hear your questions and comments!</p>
+
+</strong>If you are having trouble getting your executable to run, please contact <a href="mailto:yyg@mail.hzau.edu.cn">Dr. Yuangen Yao</a> by E-mail: yyg@mail.hzau.edu.cn</p>
+<p>Department of Physics, College of Science, Huazhong Agricultural University, Wuhan, Hubei 430070, China</p>
+
+
+<p>&nbsp;</p>
+
+<hr>
+
+
+</body>
+</html>
